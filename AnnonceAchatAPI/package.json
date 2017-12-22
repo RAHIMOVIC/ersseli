@@ -1,0 +1,17 @@
+{
+  "name": "annonceachatapi",
+  "version": "1.0.0",
+  "description": "RESTful annonceachatapi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "assert": "^1.4.1",
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.7"
+  }
+}
